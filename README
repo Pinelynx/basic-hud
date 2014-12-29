@@ -1,4 +1,8 @@
-basic-hud
+Basic HUD
 =========
 
-A simple Android application that demostrates a basic heads-up display
+A simple Android application that demostrates a basic heads-up display.
+Application is built using Android studio version 0.8.14.
+An .apk (Basic HUD.apk) is provided in the repository in case project fails to compile for whatever reasons (feel free to ask for help if that happens).
+Installing the application via .apk requires enabling "Allow installation of non-Market application" in phone settings.
+Application has no known bugs, but if you do find any, please leave a comment describing the bug.
