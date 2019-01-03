@@ -89,7 +89,7 @@ public class MyGLSurfaceView extends GLSurfaceView {
             case MotionEvent.ACTION_DOWN:
                 if (bar.isShowing()){
                     bar.hide();
-                    int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+                    int uiOptions = (View.SYSTEM_UI_FLAG_FULLSCREEN + View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
                     decorView.setSystemUiVisibility(uiOptions);
                 }else{
                     int uiOptions = View.SYSTEM_UI_FLAG_VISIBLE;
